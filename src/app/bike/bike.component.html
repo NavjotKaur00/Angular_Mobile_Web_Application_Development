@@ -1,0 +1,20 @@
+
+<h2>Bike Share Information:</h2>
+<table [ngStyle]="{backgroundColor: 'aqua'}">
+<tr>
+    <th>ID</th>
+    <th>Station Name</th>
+    <th>Status Value</th>
+    <th>Total Docks</th>
+    <th>Available Bikes</th>
+    <th>City</th>
+</tr>
+<tr *ngFor="let bsi of bs">
+<td> {{bsi.id}} </td>
+<td>{{bsi.stationName}} </td>
+<td> {{bsi.statusValue}} </td>
+<td> {{bsi.totalDocks}} </td>
+<td> {{bsi.availableBikes}} </td>
+<td> {{bsi.city}} </td>
+</tr>
+</table>

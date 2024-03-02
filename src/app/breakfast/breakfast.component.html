@@ -1,0 +1,14 @@
+
+<h2>Breakfast Information:</h2>
+<table [ngStyle]="{backgroundColor: 'pink'}">
+<tr>
+    <th>Food</th>
+    <th>Quantity</th>
+    <th>Calories</th>
+</tr>
+<tr *ngFor="let bki of bf">
+<td> {{bki.food}} </td>
+<td>{{bki.qty}} </td>
+<td>{{bki.calories}} </td>
+</tr>
+</table>

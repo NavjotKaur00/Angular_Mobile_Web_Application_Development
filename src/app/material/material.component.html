@@ -1,0 +1,48 @@
+<p>material works!</p>
+<mat-tab-group>
+    <mat-tab label="BREAKFAST">
+    <h3>Breakfast Information:</h3>
+    <table>
+    <tr><th>Food</th>
+    <th>Quantity</th>
+    <th>Calories</th>
+
+    </tr>
+    <tr *ngFor="let bki of bf">
+        <td> {{bki.food}} </td>
+        <td>{{bki.qty}} </td>
+        <td>{{bki.calories}} </td>
+        </tr>
+    </table><br>
+    </mat-tab>
+
+        <mat-tab label="BIKE SHARE">
+        <h3>Bike Share Information:</h3>
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Station Name</th>
+                <th>Status Value</th>
+                <th>Total Docks</th>
+                <th>Available Bikes</th>
+                <th>City</th>
+                <th>availableDocks</th>
+                <th>latitude</th>
+                <th>longitude</th>
+                <th>statusKey</th>
+              </tr>
+            <tr *ngFor="let bsi of bs">
+            <td> {{bsi.id}} </td>
+            <td>{{bsi.stationName}} </td>
+            <td> {{bsi.statusValue}} </td>
+            <td> {{bsi.totalDocks}} </td>
+            <td> {{bsi.availableBikes}} </td>
+            <td> {{bsi.city}} </td>
+            <td> {{bsi.availableDocks}} </td>
+            <td> {{bsi.latitude}} </td>
+            <td> {{bsi.longitude}} </td>
+            <td> {{bsi.statusKey}} </td>
+            </tr>
+        </table><br>
+        </mat-tab>
+        

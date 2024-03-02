@@ -1,0 +1,29 @@
+{
+	"breakfast": [ 
+	{
+		"food" : "Toast",
+		"qty" : 2,
+		"calories" : 150
+	},
+	{
+		"food" : "Boiled egg",
+		"qty" : 2,
+		"calories" : 310
+	},
+	{
+		"food" : "Milk",
+		"qty" : 100,
+		"calories" : 44
+	},
+	{
+		"food" : "Bacon",
+		"qty" : 2,
+		"calories" : 88
+	},
+	{
+		"food" : "Banana",
+		"qty" : 1,
+		"calories" : 100
+	}
+	]
+}
